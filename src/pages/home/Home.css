@@ -1,0 +1,52 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../assets/homepage.png');
+}
+
+.home .content {
+  max-width: 60rem;
+}
+
+.home .content h3 {
+  font-size: 3.5rem;
+  color: #eee;
+}
+
+.home .content p {
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #eee;
+}
+
+
+.home .content h3 {
+  display: flex;
+  align-items: center;
+}
+
+.home .content h3 img {
+  margin-right: 10px;
+}
+
+
+.whatsapp-icon {
+  color: #25D366;
+  font-size: 60px;
+  position: fixed;
+  margin: 0;
+  bottom: 60px;
+  right: 30px;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    white-space: nowrap;
+  }
+}

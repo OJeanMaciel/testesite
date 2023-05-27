@@ -1,0 +1,55 @@
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+.about .row .image {
+    flex: 1 1 45rem;
+}
+
+.about .row .image img {
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about .row .content h3 {
+    text-align: center;
+    font-size: 3rem;
+    color: #d3ad7f;
+}
+
+.about .row .content p {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.mapa iframe {
+    width: 500px;
+    height: 350px;
+    border: 0;
+}
+
+.content .anticon-instagram,
+.content .anticon-twitter,
+.content .anticon-facebook {
+    padding: 20px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content .anticon-instagram:hover,
+.content .anticon-twitter:hover,
+.content .anticon-facebook:hover {
+    font-size: 34px;
+    color: #FFBB33;
+}
