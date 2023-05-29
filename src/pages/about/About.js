@@ -22,8 +22,8 @@ function About() {
                     </div>
 
                     <div className="content">
-                        <h3 style={{ color: '#FFBB33' }}>Direito do Trânsito</h3>
-                        <p>Trabalhamos em estreita colaboração com nossos clientes em todas as etapas para que possam ter resguardados o seu direito de dirigi. atuamos tnato na esfera administrativa como judicial com fito na obtenção do melhor resultado. assim, você pode ter certeza que nossa atuação será diligente, objetivando atender às suas necessidades.</p>
+                        <h3 style={{ color: '#FFBB33' }}>Direito de Trânsito</h3>
+                        <p style={{ fontSize: 18, textAlign: 'justify' }}>Trabalhamos em estreita colaboração com nossos clientes em todas as etapas para que possam ter resguardados o seu direito de dirigir. Atuamos tanto na esfera administrativa como judicial com fito na obtenção do melhor resultado. Assim, você pode ter certeza que nossa atuação será diligente, objetivando atender às suas necessidades.</p>
                     </div>
 
                 </div>
@@ -40,10 +40,11 @@ function About() {
 
                     <div className="content">
                         <h3 style={{ color: '#FFBB33' }}>Nosso Foco! </h3>
-                        <p style={{ color: '#d3ad7f' }}>É trazer o melhor resultado para você.</p>
-                        <p>Recusa em fazer o teste do bafômetro.</p>
-                        <p>Recurso de cassação e suspensão de CNH.</p>
-                        <p>Recusa de multas vencidas.</p>
+                        <p style={{ color: '#d3ad7f', fontSize: 18 }}>É trazer o melhor resultado para você.</p>
+                        <li style={{ color: '#fff', fontSize: 18, textAlign: 'justify' }}>Ação de Transferência de Pontos.</li>
+                        <li style={{ color: '#fff', fontSize: 18, textAlign: 'justify' }}>Recusa em fazer o teste do bafômetro.</li>
+                        <li style={{ color: '#fff', fontSize: 18, textAlign: 'justify' }}>Recurso de cassação e suspensão de CNH.</li>
+                        <li style={{ color: '#fff', fontSize: 18, textAlign: 'justify' }}>Recurso de multas vencidas.</li>
                     </div>
 
                 </div>
@@ -52,7 +53,7 @@ function About() {
 
             <section className="about">
 
-                <h1 className="heading"> <span>Titulo</span> titulo </h1>
+                <h1 className="heading"> <span>Nosso</span> pensamento </h1>
 
                 <div className="row">
 
@@ -62,8 +63,8 @@ function About() {
 
                     <div className="content">
                         <h1 className="heading"> <span>Rui Barbosa</span></h1>
-                        <p>Onde quer que haja um direito individual violado, há de haver um recurso judicial
-                            para a debelação da injustiça; este, o pricípio fundamental de todas as Constituições livres.
+                        <p style={{ fontSize: 18, textAlign: 'justify' }}>
+                            Onde quer que haja um direito individual violado, há de haver um recurso judicial para a debelação da injustiça; este, o princípio fundamental de todas as Constituições livres.
                         </p>
                     </div>
 

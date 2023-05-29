@@ -35,14 +35,27 @@
 }
 
 
+@keyframes whatsapp-icon-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .whatsapp-icon {
   color: #25D366;
-  font-size: 60px;
+  font-size: 40px;
   position: fixed;
   margin: 0;
   bottom: 60px;
   right: 30px;
   cursor: pointer;
+  animation: whatsapp-icon-animation 1s infinite;
 }
 
 @media (min-width: 1200px) {
