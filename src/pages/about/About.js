@@ -13,7 +13,7 @@ function About() {
         <>
             <section className="about" id="atuacao">
 
-                <h1 className="heading"> <span>Áreas de</span> atuação </h1>
+                <h1 className="heading"> <span>Direito de</span> Trânsito </h1>
 
                 <div className="row">
 
@@ -22,7 +22,6 @@ function About() {
                     </div>
 
                     <div className="content">
-                        <h3 style={{ color: '#FFBB33' }}>Direito de Trânsito</h3>
                         <p style={{ fontSize: 18, textAlign: 'justify' }}>Trabalhamos em estreita colaboração com nossos clientes em todas as etapas para que possam ter resguardados o seu direito de dirigir. Atuamos tanto na esfera administrativa como judicial com fito na obtenção do melhor resultado. Assim, você pode ter certeza que nossa atuação será diligente, objetivando atender às suas necessidades.</p>
                     </div>
 
@@ -62,10 +61,10 @@ function About() {
                     </div>
 
                     <div className="content">
-                        <h1 className="heading"> <span>Rui Barbosa</span></h1>
-                        <p style={{ fontSize: 18, textAlign: 'justify' }}>
+                        <p style={{ fontSize: 24, textAlign: 'justify' }}>
                             Onde quer que haja um direito individual violado, há de haver um recurso judicial para a debelação da injustiça; este, o princípio fundamental de todas as Constituições livres.
                         </p>
+                        <h5 style={{ fontSize: 18 }} className="heading"> <span>Rui Barbosa</span></h5>
                     </div>
 
                 </div>
@@ -91,12 +90,8 @@ function About() {
                         </Link>
                         <h3>Social</h3>
                         <p>
-                            <Link to={'https://www.instagram.com/dmadvocacia4/'} target="_blank">
+                            <Link to={'https://www.instagram.com/douglasmarcelomaciel/'} target="_blank">
                                 <InstagramOutlined />
-                            </Link>
-
-                            <Link to={'/'}>
-                                <TwitterOutlined />
                             </Link>
 
                             <Link to={'https://www.facebook.com/douglasmarcelo.maciel'} target="_blank">
